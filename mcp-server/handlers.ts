@@ -33,7 +33,6 @@ export const emailHandler: ToolHandler = async (args) => {
   }
 
   try {
-    // const testAccount = await nodemailer.createTestAccount();
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
